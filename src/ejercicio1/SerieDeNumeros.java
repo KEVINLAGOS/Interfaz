@@ -43,6 +43,7 @@ public class SerieDeNumeros extends JFrame {
 	 * Create the frame.
 	 */
 	public SerieDeNumeros() {
+		setTitle("Kevin Otoniel Lagos Hilario 19100202");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
