@@ -68,7 +68,7 @@ public class ExpresionMatematica extends JFrame {
 				if(txtExpresion.getText().length()==0) {
 					JOptionPane.showMessageDialog(null, "Ingrese Expresion");
 					txtExpresion.requestFocus();
-				}
+				 }
 				else	{
 				Stack <String >varPila=new Stack<String>();
 				String varExpresion =txtExpresion.getText();
@@ -108,7 +108,7 @@ public class ExpresionMatematica extends JFrame {
 			
 			        
 			}
-			}
+			 }
 		);
 		btnValidar.setBounds(52, 110, 89, 23);
 		contentPane.add(btnValidar);
